@@ -43,8 +43,15 @@ export const therapist = {
     phone: "(310) 555-0148",
     email: "hello@drmayareynolds.com",
     address: "123th Street 45 W, Santa Monica, CA 90401",
+    consultLength: "15-minute consultation",
+    ageRange: "Adults 18+",
   },
-  heroTrustChips: ["Adults 18+", "In-Person Therapy", "California Telehealth"],
+  heroTrustChips: [
+    "Adults 18+",
+    "In-Person Therapy",
+    "California Telehealth",
+    "Licensed Clinical Psychologist",
+  ],
   modalities: [
     "Cognitive Behavioral Therapy (CBT)",
     "EMDR (Eye Movement Desensitization and Reprocessing)",
@@ -143,20 +150,20 @@ export const therapist = {
       image: "/images/who-we-help/perfectionism.svg",
     },
     {
+      title: "Panic & Overthinking",
+      description: "Understand the spiral and learn how to gently step out of it.",
+      icon: "brain-circuit",
+      image: "/images/who-we-help/panic-overthinking.svg",
+    },
+    {
       title: "Chronic Stress",
       description: "Practical, body-based tools for a nervous system stuck in overdrive.",
       icon: "cloud-rain",
       image: "/images/who-we-help/chronic-stress.svg",
     },
-    {
-      title: "Panic / Overthinking",
-      description: "Understand the spiral and learn how to gently step out of it.",
-      icon: "brain-circuit",
-      image: "/images/who-we-help/panic-overthinking.svg",
-    },
   ] satisfies WhoWeHelpItem[],
   office: {
-    title: "A Calm Space for Healing",
+    title: "A Calm Space for Healing in Santa Monica",
     subtitle:
       "My Santa Monica office is a quiet, private space designed to feel calm and grounding, with natural light and a comfortable, uncluttered environment. Clients often share that the space itself helps them feel more at ease when they arrive.",
     features: [
@@ -167,7 +174,7 @@ export const therapist = {
     ],
     infoCard: {
       title: "Santa Monica Office",
-      lines: ["In-Person Therapy", "California Telehealth"],
+      lines: ["Private Sessions", "California Telehealth", "Adults 18+"],
     },
   },
   faq: [
@@ -216,17 +223,17 @@ export const therapist = {
     {
       quote:
         "I came in barely sleeping and left with actual tools I still use every day. It felt less like being fixed and more like being understood.",
-      attribution: "Client — Santa Monica",
+      attribution: "Adult Client in California",
     },
     {
       quote:
         "For the first time, therapy didn't feel like performing wellness. I could just be a mess and figure it out from there.",
-      attribution: "Client — California Telehealth",
+      attribution: "Adult Client in California",
     },
     {
       quote:
         "The EMDR work helped with things I didn't think talking could ever touch. I feel lighter than I have in years.",
-      attribution: "Client — Santa Monica",
+      attribution: "Adult Client in California",
     },
   ] satisfies Testimonial[],
 };

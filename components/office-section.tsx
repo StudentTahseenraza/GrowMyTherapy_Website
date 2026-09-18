@@ -20,7 +20,7 @@ export default function OfficeSection() {
   const { office } = therapist;
 
   return (
-    <section id="office" className="py-20 md:py-28">
+    <section id="our-office" className="py-20 md:py-28">
       <div className="section-shell grid lg:grid-cols-2 gap-14 items-center">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -30,7 +30,7 @@ export default function OfficeSection() {
         >
           <p className="eyebrow text-sm mb-4">The space</p>
           <h2 className="font-display text-3xl sm:text-4xl leading-tight text-ink mb-5">
-            {office.title}
+            A Calm Space for Healing in Santa Monica
           </h2>
           <p className="text-ink/80 leading-relaxed max-w-prose mb-7">
             {office.subtitle}
@@ -56,7 +56,7 @@ export default function OfficeSection() {
                 {office.infoCard.title}
               </p>
               <p className="text-sm text-ink/70 mt-1">
-                {office.infoCard.lines.join(" &middot; ")}
+                {office.infoCard.lines.join(" · ")}
               </p>
             </div>
           </div>
@@ -67,9 +67,9 @@ export default function OfficeSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="grid grid-cols-1 gap-4 sm:gap-5"
+          className="grid grid-cols-2 gap-4 sm:gap-5"
         >
-          <div className="relative aspect-[4/3] rounded-card overflow-hidden shadow-card">
+          <div className="relative col-span-2 aspect-[16/10] rounded-card overflow-hidden shadow-card">
             <Image
               src={galleryImages[0].src}
               alt={galleryImages[0].alt}
@@ -78,13 +78,22 @@ export default function OfficeSection() {
               sizes="(min-width: 1024px) 560px, 100vw"
             />
           </div>
-          <div className="relative aspect-[4/3] rounded-card overflow-hidden shadow-card">
+          <div className="relative aspect-[4/5] rounded-card overflow-hidden shadow-card">
             <Image
               src={galleryImages[1].src}
               alt={galleryImages[1].alt}
               fill
               className="object-cover"
-              sizes="(min-width: 1024px) 560px, 100vw"
+              sizes="(min-width: 1024px) 275px, 50vw"
+            />
+          </div>
+          <div className="relative aspect-[4/5] rounded-card overflow-hidden shadow-card">
+            <Image
+              src={galleryImages[0].src}
+              alt="Additional view of the Santa Monica therapy office"
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 275px, 50vw"
             />
           </div>
         </motion.div>

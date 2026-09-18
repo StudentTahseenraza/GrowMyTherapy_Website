@@ -18,7 +18,7 @@ export default function TherapyApproach() {
         <div className="max-w-2xl mx-auto text-center">
           <p className="eyebrow text-sm mb-4">My approach</p>
           <h2 className="font-display text-3xl sm:text-4xl leading-tight text-ink">
-            A steady path forward, one step at a time
+            How Therapy Can Support Your Healing Journey
           </h2>
         </div>
 

@@ -1,13 +1,37 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { specialtyPages, methodPages } from "@/lib/site-content";
 
+const SECTION_IDS = ["about", "team", "specialties", "methods", "our-office", "faq"];
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [mobileSection, setMobileSection] = useState<string | null>(null);
+  const [active, setActive] = useState<string>("");
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) setActive(e.target.id);
+        });
+      },
+      { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
+    );
+    SECTION_IDS.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+    return () => observer.disconnect();
+  }, []);
+
+  const linkClass = (id: string) =>
+    `hover:text-sage-600 transition-colors ${
+      active === id ? "text-sage-600 font-semibold" : ""
+    }`;
 
   return (
     <header className="sticky top-0 z-40 bg-canvas/90 backdrop-blur border-b border-sage-100">
@@ -26,12 +50,12 @@ export default function Navbar() {
 
         <ul className="hidden lg:flex items-center gap-8 font-medium text-sm text-ink">
           <li>
-            <Link href="/#about" className="hover:text-sage-600 transition-colors">
+            <Link href="/#about" className={linkClass("about")}>
               About
             </Link>
           </li>
           <li>
-            <Link href="/team" className="hover:text-sage-600 transition-colors">
+            <Link href="/team" className={linkClass("team")}>
               Our Team
             </Link>
           </li>
@@ -39,7 +63,7 @@ export default function Navbar() {
           <li className="relative group">
             <Link
               href="/specialties"
-              className="flex items-center gap-1 hover:text-sage-600 transition-colors py-2"
+              className={`flex items-center gap-1 py-2 ${linkClass("specialties")}`}
             >
               Specialties
               <ChevronDown size={14} aria-hidden="true" />
@@ -63,7 +87,7 @@ export default function Navbar() {
           <li className="relative group">
             <Link
               href="/methods"
-              className="flex items-center gap-1 hover:text-sage-600 transition-colors py-2"
+              className={`flex items-center gap-1 py-2 ${linkClass("methods")}`}
             >
               Methods
               <ChevronDown size={14} aria-hidden="true" />
@@ -85,7 +109,13 @@ export default function Navbar() {
           </li>
 
           <li>
-            <Link href="/faq" className="hover:text-sage-600 transition-colors">
+            <Link href="/#our-office" className={linkClass("our-office")}>
+              Our Office
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/faq" className={linkClass("faq")}>
               FAQs
             </Link>
           </li>
@@ -199,6 +229,14 @@ export default function Navbar() {
               </ul>
             )}
           </div>
+
+          <Link
+            href="/#our-office"
+            onClick={() => setOpen(false)}
+            className="py-3 text-base font-medium border-b border-sage-100"
+          >
+            Our Office
+          </Link>
 
           <Link
             href="/faq"

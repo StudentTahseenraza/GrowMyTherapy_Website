@@ -80,6 +80,24 @@ export default function Contact() {
                   {therapist.contact.email}
                 </a>
               </div>
+
+              {/* Practice details card */}
+              <div className="mt-6 pt-6 border-t border-white/20 grid grid-cols-2 gap-4 text-sm">
+                <div>
+                  <p className="text-white/60 text-xs uppercase tracking-wide mb-1">
+                    Practice
+                  </p>
+                  <p className="font-semibold">{therapist.contact.ageRange}</p>
+                </div>
+                <div>
+                  <p className="text-white/60 text-xs uppercase tracking-wide mb-1">
+                    Consultation
+                  </p>
+                  <p className="font-semibold">
+                    Free {therapist.contact.consultLength}
+                  </p>
+                </div>
+              </div>
             </motion.div>
           </div>
         </div>

@@ -29,7 +29,7 @@ export default function WhoWeHelp() {
         <div className="max-w-2xl">
           <p className="eyebrow text-sm mb-4">Who I work with</p>
           <h2 className="font-display text-3xl sm:text-4xl leading-tight text-ink">
-            Adults experiencing
+            Who I help
           </h2>
         </div>
 

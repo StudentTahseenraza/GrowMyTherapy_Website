@@ -70,3 +70,9 @@ select:focus-visible,
 .blob {
   filter: blur(0px);
 }
+
+/* Sticky navbar offset for anchor links */
+section[id],
+main[id] {
+  scroll-margin-top: 6rem;
+}

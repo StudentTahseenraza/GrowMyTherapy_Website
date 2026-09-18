@@ -23,6 +23,9 @@ export const defaultMetadata: Metadata = {
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   authors: [{ name: siteConfig.name }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
@@ -43,6 +46,7 @@ export const defaultMetadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
+    images: ["/images/portrait-maya.jpg"],
   },
   robots: {
     index: true,

@@ -28,8 +28,9 @@ export default function Hero() {
           <p className="eyebrow text-sm mb-5">
             Online &amp; In-Person Therapy in Santa Monica &amp; Across California
           </p>
-          <h1 className="font-display text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.1] text-ink">
-            {therapist.tagline}
+          <h1 className="font-display text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.08] tracking-[-0.01em] text-ink">
+            Anxiety &amp; Trauma Therapy in{" "}
+            <span className="text-sage-700">Santa Monica</span>, California
           </h1>
           <p className="mt-6 text-lg text-ink/80 max-w-prose leading-relaxed">
             If anxiety, past trauma, burnout, or the pressure to be perfect
