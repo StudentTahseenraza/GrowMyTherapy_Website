@@ -1,0 +1,18 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Original illustration of a calm coastline in muted teal and cream tones">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EAF1EF"/>
+      <stop offset="100%" stop-color="#DCE9E6"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#sky)"/>
+  <rect x="0" y="760" width="900" height="340" fill="#E4DCC8"/>
+  <path d="M0 760 C200 720 350 800 500 750 C650 700 800 780 900 740 L900 800 L0 800 Z" fill="#CFE3DF"/>
+  <circle cx="700" cy="220" r="90" fill="#F3EFE1" opacity="0.9"/>
+  <g opacity="0.55">
+    <path d="M180 900 C200 800 220 800 240 900" stroke="#8FAFA7" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M230 900 C250 780 270 780 290 900" stroke="#8FAFA7" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M280 900 C300 820 320 820 340 900" stroke="#8FAFA7" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="150" cy="150" rx="60" ry="60" fill="#B9D2CB" opacity="0.6"/>
+</svg>

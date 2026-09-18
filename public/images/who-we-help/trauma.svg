@@ -1,0 +1,7 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract illustration of a soft protective shield shape representing trauma support">
+  <rect width="400" height="300" fill="#F1F5F3"/>
+  <circle cx="80" cy="70" r="60" fill="#D8A48F" opacity="0.16"/>
+  <circle cx="330" cy="230" r="80" fill="#7C9A92" opacity="0.15"/>
+  <path d="M200 70 C240 85 275 90 275 90 C275 165 245 210 200 235 C155 210 125 165 125 90 C125 90 160 85 200 70 Z" fill="#7C9A92" opacity="0.85"/>
+  <path d="M200 110 L200 175 M172 142 L228 142" stroke="#F6F2EC" stroke-width="8" stroke-linecap="round"/>
+</svg>

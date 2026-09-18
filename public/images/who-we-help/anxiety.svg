@@ -1,0 +1,10 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract illustration of calming wave lines representing easing anxiety">
+  <rect width="400" height="300" fill="#F1F5F3"/>
+  <circle cx="320" cy="60" r="70" fill="#D8A48F" opacity="0.18"/>
+  <circle cx="60" cy="250" r="90" fill="#7C9A92" opacity="0.15"/>
+  <g stroke="#7C9A92" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M60 190 C100 150 140 230 180 190 C220 150 260 230 300 190"/>
+    <path d="M60 150 C100 190 140 110 180 150 C220 190 260 110 300 150" opacity="0.55"/>
+  </g>
+  <circle cx="335" cy="230" r="10" fill="#D8A48F"/>
+</svg>

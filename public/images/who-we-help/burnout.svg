@@ -1,0 +1,9 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract illustration of a plant regaining energy representing burnout recovery">
+  <rect width="400" height="300" fill="#F1F5F3"/>
+  <circle cx="330" cy="60" r="55" fill="#D8A48F" opacity="0.18"/>
+  <rect x="0" y="230" width="400" height="70" fill="#7C9A92" opacity="0.12"/>
+  <path d="M200 235 C200 235 200 160 200 140" stroke="#5E7C74" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M200 190 C160 190 140 160 145 120 C185 125 200 155 200 190 Z" fill="#8DB0A3"/>
+  <path d="M200 165 C240 165 260 135 255 95 C215 100 200 130 200 165 Z" fill="#7C9A92"/>
+  <circle cx="200" cy="235" r="14" fill="#D8A48F"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="1600" height="700" viewBox="0 0 1600 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Original wide illustration of a quiet shoreline at dusk in muted teal tones">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A4E4A"/>
+      <stop offset="100%" stop-color="#5A6E68"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#sky2)"/>
+  <rect x="0" y="520" width="1600" height="180" fill="#8B9D93"/>
+  <path d="M0 520 C300 480 500 540 800 510 C1100 480 1300 530 1600 500 L1600 560 L0 560 Z" fill="#728A82" opacity="0.8"/>
+  <circle cx="1300" cy="160" r="70" fill="#EFE7CF" opacity="0.85"/>
+</svg>

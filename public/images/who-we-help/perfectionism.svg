@@ -1,0 +1,10 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Abstract illustration of mosaic tiles easing into alignment representing letting go of perfectionism">
+  <rect width="400" height="300" fill="#F1F5F3"/>
+  <circle cx="70" cy="230" r="70" fill="#7C9A92" opacity="0.15"/>
+  <g>
+    <rect x="140" y="100" width="60" height="60" rx="10" fill="#7C9A92" opacity="0.85" transform="rotate(-6 170 130)"/>
+    <rect x="205" y="95" width="60" height="60" rx="10" fill="#8DB0A3" opacity="0.85"/>
+    <rect x="140" y="165" width="60" height="60" rx="10" fill="#D8A48F" opacity="0.85"/>
+    <rect x="205" y="162" width="60" height="60" rx="10" fill="#E8C4B4" opacity="0.9" transform="rotate(4 235 192)"/>
+  </g>
+</svg>
