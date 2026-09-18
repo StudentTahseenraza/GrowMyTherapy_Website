@@ -12,11 +12,11 @@ The redesign focuses on **modern UI/UX, local SEO, accessibility, responsive des
 
 ## 🌐 Live Demo
 
-> **Live Website:** `https://your-vercel-link.vercel.app`
+> **Live Website:** `https://growmytherapy-website.vercel.app/`
 
 ## 📂 GitHub Repository
 
-> **Repository:** `https://github.com/yourusername/maya-reynolds-therapy-website`
+> **Repository:** `https://github.com/StudentTahseenraza/GrowMyTherapy_Website/`
 
 ---
 
